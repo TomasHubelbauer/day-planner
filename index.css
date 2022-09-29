@@ -1,0 +1,31 @@
+body {
+  font: icon;
+  margin-inline: auto;
+  width: 50ex;
+}
+
+table {
+  border: 1px solid gray;
+  user-select: none;
+  width: 100%;
+}
+
+caption {
+  caption-side: bottom;
+}
+
+caption>div {
+  margin: 1em;
+}
+
+tr:hover {
+  background: silver;
+}
+
+th {
+  width: 0;
+}
+
+td {
+  border: 1px solid silver;
+}
